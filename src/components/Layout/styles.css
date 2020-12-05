@@ -1,0 +1,36 @@
+#page-chat {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 320px auto;
+}
+
+#page-chat aside {
+    background: #282b43;
+}
+
+#page-chat aside header {
+    font-size: 25px;
+    color: #fff;
+    padding: 10px;
+}
+
+#page-chat .container {
+    width: 100%;
+    display: grid; 
+    grid-template-rows: 8vh auto 12vh;
+}
+
+#page-chat .container header{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 0px 0px;
+    z-index: 2;
+}
+
+#page-chat .container main{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 0px 0px;
+}
+
+#page-chat .container footer {
+    display: flex;
+}
